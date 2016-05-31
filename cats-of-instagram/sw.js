@@ -20,10 +20,10 @@ self.addEventListener("install", function(event) {
            after making HTTP requests for each of them.
         */
         return cache.addAll([
-          '/',
-          '/css/styles.css',
-          '/js/instafeed.min.js',
-          '/js/global.js'
+          '/cats-of-instagram/',
+          '/cats-of-instagram/css/styles.css',
+          '/cats-of-instagram/js/instafeed.min.js',
+          '/cats-of-instagram/js/global.js'
         ]);
       })
       .then(function() {
